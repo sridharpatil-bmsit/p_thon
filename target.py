@@ -3,7 +3,7 @@ import socket
 import os
 import subprocess
 #[s c]
-host = '127.0.0.1'
+host = '127.0.0.1' # Can be changed accordingly
 port = 5559
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
